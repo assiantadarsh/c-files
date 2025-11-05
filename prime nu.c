@@ -9,10 +9,12 @@ for(int i=2;i<=n-1;i++)
        { a = 1;
          break;}
        }
-if (a==0)
+if(n==1) printf("the given number is neither prime nor composite")   
+else if (a==0)
     printf("the given number is prime");
 else
     printf("the given number is composite");
 
 return 0;
+
 }
