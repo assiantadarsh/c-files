@@ -29,10 +29,13 @@ for(int i=0;i<=5;i++){
         smax = max;
         max = arr[i];
     }
+    else if(smax<arr[i]){
+        smax = arr[i];
 }
 printf("%d",smax);
 return 0;
 }
+
 
 
 
