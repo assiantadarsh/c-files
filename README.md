@@ -10,5 +10,5 @@ This repository contains beginner-friendly C programs for practice.
 
 ## How to run a program
 ```bash
-gcc filename.c -o output
+gcc c-files.c -o output
 ./output
